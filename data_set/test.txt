@@ -1,0 +1,1 @@
+opencv_traincascade -data F:/HAAR/haarcascade -vec F:/HAAR/data_set/pos.vec -bg F:/HAAR/data_set/neg.txt -numPos 798 -numNeg 2001 -numStages 20 -w 30 -h 30 -minHitRate 0.9 -maxFalseAlarmRate 0.5 -mode ALL
